@@ -36,13 +36,13 @@ onSubmit(e) {
 
             {this.state.error ? <p>{this.state.error}</p> : undefined}
     
-            <form onSubmit={this.onSubmit.bind(this)} noValidate className="boxed-view__form">
+            <form onSubmit={this.onSubmit.bind(this)} noValidate className="oxed-view-modalform">
                 <input type="email" ref="email" name="email" placeholder="Email" />
                 <input type="password" ref="password" name="password" placeholder="Password" />
                 <button className="button">Login</button>
             </form>
 
-        <Link to="/signup">Create an Account?</Link>
+        <Link to="/signup">Need an Account?</Link>
         </div>
 
         </div>

@@ -23,8 +23,16 @@
     width: 24rem;
   }
   
-  .boxed-view__form {
+  .boxed-view_form {
     display: flex;
     flex-direction: column;
   }
-  
+
+  .boxed-view_forminput {
+    align-items: center;
+    padding: 1.4rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
